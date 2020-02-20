@@ -1,0 +1,160 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* ここからheader */
+header {
+	background-color: rgba(34, 49, 52, 0.9);
+	height: 65px;
+	width: 100%;
+	top: 0px;
+}
+
+header h1 {
+	color: white;
+	margin: 10px 0 10px 20px;
+	float: left;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header-right {
+	float: right;
+	background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 65px;
+	padding: 0 25px;
+	display: block;
+}
+
+
+/* ここからcontents-wrapper */
+.contents-wrapper {
+  height: 700px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.heading {
+	font-family: "fantasy";
+}
+
+.txt-contents {
+    font-size: 14px;
+}
+
+.content a {
+	font-size: 14px;
+}
+
+
+/* ここからmessage-wrapper */
+.message-wrapper {
+	height: 2000px;
+	padding: 30px 0;
+	background-color: #f7f7f7;
+	text-align: center;
+	line-height: 40px;
+	font-size: 15px;
+	font-family: 'Meiryo UI';
+	font-weight: bold;
+}
+
+.message-icon1 {
+	float: left;
+	margin-right: 40px;
+	margin-left: 120px;
+}
+
+.section-message1 {
+    width: 500px;
+    height: 350px;
+    display: inline-block;
+    float:left;
+    padding-top: 140px;
+}
+
+.message-icon2 {
+	float: left;
+}
+
+.section-message2 {
+    width: 500px;
+    height: 350px;
+    display: inline-block;
+    float:left;
+    padding-top: 140px;
+    margin-right: 40px;
+	margin-left: 120px;
+}
+
+.message-icon3 {
+	float: left;
+	margin-right: 40px;
+	margin-left: 120px;
+}
+
+.section-message3 {
+    width: 500px;
+    height: 350px;
+    display: inline-block;
+    float:left;
+    padding-top: 140px;
+}
+
+.message-icon4 {
+	float: left;
+}
+
+.section-message4 {
+    width: 500px;
+    height: 350px;
+    display: inline-block;
+    float:left;
+    padding-top: 160px;
+    margin-right: 100px;
+	margin-left: 200px;
+}
+
+
+/* ここからfooter */
+footer {
+	border-top: 1px solid #eee;
+	padding: 10px 0 10px 30px;
+}
+
+
+footer p {
+  font-size: 12px;
+  color: #b3aeb5;
+}
