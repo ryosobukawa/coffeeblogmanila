@@ -15,7 +15,11 @@
 /* スマホ向けレイアウト */
 /* ブレイクポイントが670px以下の時のメディアクエリを設定 */
 @media (max-width: 670px) {
-
+  header {
+    text-align: center;
+    width: 100%;
+    }
+	
   .header-right {
     display: none;
   }
