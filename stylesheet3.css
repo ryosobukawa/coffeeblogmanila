@@ -17,6 +17,14 @@ a {
   text-decoration: none;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: left;
+}
+
 
 /* ここからheader */
 header {
@@ -33,7 +41,8 @@ header h1 {
 }
 
 .container {
-	width: 1170px;
+	max-width: 1170px;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -60,8 +69,8 @@ header h1 {
 /* ここからcontents-wrapper */
 .contents-wrapper {
   height: 700px;
-  padding-top: 20px;
-  padding-bottom: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -80,7 +89,6 @@ header h1 {
 
 /* ここからmessage-wrapper */
 .message-wrapper {
-	height: 2000px;
 	padding: 30px 0;
 	background-color: #f7f7f7;
 	text-align: center;
@@ -92,8 +100,7 @@ header h1 {
 
 .message-icon1 {
 	float: left;
-	margin-right: 40px;
-	margin-left: 120px;
+	margin: 10px 40px 20px 120px;
 }
 
 .section-message1 {
@@ -120,8 +127,7 @@ header h1 {
 
 .message-icon3 {
 	float: left;
-	margin-right: 40px;
-	margin-left: 120px;
+	margin: 10px 40px 20px 120px;
 }
 
 .section-message3 {
