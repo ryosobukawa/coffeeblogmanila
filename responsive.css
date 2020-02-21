@@ -1,0 +1,49 @@
+/* タブレット向けレイアウト */
+/* ブレイクポイントが1000px以下のときのメディアクエリを設定 */
+@media (max-width: 1000px) {
+  .message {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+
+/* スマホ向けレイアウト */
+/* ブレイクポイントが670px以下の時のメディアクエリを設定 */
+@media (max-width: 670px) {
+
+  .header-right {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+  
+
+
+  .message {
+    width: 100%;
+  }
+  
+  .contents-wrapper {
+    text-align: left;
+    padding-top: 100px;
+  }
+
+  .txt-contents {
+    font-size: 10px;
+  }
+
+  .content a {
+	font-size: 10px;
+}
+
+  footer {
+    text-align: center;
+  }
+}
